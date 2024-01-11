@@ -1,28 +1,62 @@
-# Data-Analytics-Portfolio
-Data Analytics Project: [Data]
+Sydney House Prices Analysis
 Overview
 
-This project, titled "[Project Title]", is a comprehensive analysis of [briefly describe what you are analyzing and why]. This project showcases my skills in data collection, cleaning, preprocessing, statistical analysis, and data visualization, and is part of my portfolio as a Data Analyst.
-Objective
+This project presents a comprehensive analysis of house prices in Sydney, Australia, spanning from 2000 to 2019. It aims to provide insights into the variations and trends in housing prices across different suburbs and postal codes.
+Data Sources
 
-The main objective of this project is to [clearly state what your project aims to achieve or find out]. This project aims to demonstrate my ability to extract meaningful insights from data and translate these insights into actionable business strategies.
-Dataset Description
+The data used in this project is sourced from Kaggle and includes two primary datasets:
 
-The dataset used in this project includes [describe your dataset - its source, nature, and any relevant details that a reader should know].
-Tools and Technologies
+    SydneyHousePrices.csv: Contains historical house price data for Sydney.
+    Source: Sydney House Prices Dataset on Kaggle
 
-    Programming Language: Python
-    Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn (or any other libraries you used)
-    Software/Tools: Jupyter Notebook, Tableau (if applicable), SQL (if applicable)
+    sydney_suburbs.csv: Lists Sydney suburbs for geographic insights.
+    Source: Suburbs in Sydney, Australia Dataset on Kaggle
+Tools Used
 
-Key Features and Analyses Conducted
+    Python
+    Spyder IDE
+    Libraries: Pandas, Matplotlib, NumPy
 
-    Data Cleaning and Preprocessing: [Briefly describe the data cleaning and preprocessing steps you performed.]
-    Exploratory Data Analysis (EDA): [Describe the EDA process and any key findings. Include visualizations if applicable.]
-    Statistical Analysis / Machine Learning: [If you performed any statistical tests or built any models, describe them here.]
-    Data Visualization: [Mention the types of visualizations you created and the insights they provided.]
+Key Features
 
-Key Findings
+    Data Cleaning and Preprocessing: Involves handling missing values, removing duplicates, and correcting data types for accuracy.
+    Outlier Detection: Outliers are identified and removed to ensure the reliability of the analysis.
+    Data Visualization: The project employs horizontal bar charts to display:
+        Top 10 mean house prices by suburb
+        Top 10 mean house prices by postal code
+
+Visualization Details
+
+The analysis features two key visualizations:
+
+    Suburb Analysis: Showcasing mean house prices in the top 10 suburbs.
+    Postal Code Analysis: Focusing on mean house prices in the top 10 postal codes.
+
+Running the Code
+
+To execute the project:
+
+    Install Python and the required libraries.
+    Open the analysis.py script in the Spyder IDE.
+    Run the script to perform the data analysis and generate visualizations.
+
+Repository Structure
+
+    README.md: Provides an overview of the project.
+    analysis.py: The Python script with the complete analysis and visualization code.
+    data/
+        SydneyHousePrices.csv: Dataset for Sydney house prices.
+        sydney_suburbs.csv: Dataset with Sydney suburb information.
+
+Future Work
+
+Future expansions of this project could include predictive models for house prices and an exploration of external factors like economic indicators or interest rates.
+Contact
+
+For further information or inquiries about this project, please contact:
+
+Yunzhou Jia
+Email: yunzhoujia2000@gmail.com
 
     [Highlight the main insights or findings from your analysis. These could be bullet points or a short paragraph.]
 
