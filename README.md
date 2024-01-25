@@ -58,7 +58,6 @@ For further information or inquiries about this project, please contact:
 Yunzhou Jia
 Email: yunzhoujia2000@gmail.com
 
-    [Highlight the main insights or findings from your analysis. These could be bullet points or a short paragraph.]
 
 How to Run the Project
 
